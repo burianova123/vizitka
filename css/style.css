@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #D8D3C9;
+}
+
+
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    gap: 12px;
+    height: 100vh;
+}
+
+.parent {
+    margin: 0px 400px;
+}
+
+    
+.div1 {
+    grid-row: span 7 / span 7;
+    border-radius: 1.5rem;
+    background-color: #F5F2EA;
+    height: 100%;
+    position: relative;
+    padding: 24px;
+}
+
+.dg {
+    text-decoration: none;
+    color: #181818;
+    font-size: 12px;
+}
+
+.nav1 p{
+    position: absolute;
+    top: 2px;
+    left: 346px;
+}
+
+.nav1 {
+    position: absolute;
+    top: 12px;
+}
+
+.text1 {
+    position: absolute;
+    bottom: 30px;
+}
+
+.text1 h1 {
+    font-size: 100px;
+    margin: 10px 0px;
+}
+
+
+
+
+.div2 {
+    grid-row: span 4 / span 4;
+    background-color: #181818;
+    color: white;
+    border-radius: 1.5rem;
+    height: 100%;
+    padding: 24px;
+    position: relative;
+}
+
+.sp {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+.text2 {
+    position: absolute;
+    bottom: 35px;
+    max-width: 350px;
+}
+
+.text2 h1{
+    font-size: 63px;
+}
+
+.text2 p{
+    font-size: 14px;
+    margin-top: 10px;
+    color: #e5e2dc;
+}
+
+
+
+
+.div3 {
+    grid-row: span 3 / span 3;
+    grid-column-start: 2;
+    grid-row-start: 5;
+    border-radius: 1.5rem;
+    background-color: #F5F2EA;
+    height: 100%;
+    padding: 24px;
+    position: relative;
+}
+
+.mn {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+.text3 {
+    position: absolute;
+    bottom: 25px;
+}
+
+.text3 h1{
+    font-size: 45px;
+}
+
+
+
+.div4 {
+    grid-row: span 4 / span 4;
+    grid-column-start: 3;
+    grid-row-start: 1;
+    background-color: #f6ff00;
+    border-radius: 1.5rem;
+    height: 100%;
+    padding: 24px;
+    position: relative;
+}
+
+.text4 {
+    position: absolute;
+    bottom: 40px;
+    max-width: 250px;
+}
+
+.text4 h1 {
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+
+.text4 p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.pr {
+    text-decoration: none;
+    color: #181818;
+}
+
+
+
+.div5 {
+    grid-row: span 3 / span 3;
+    grid-column-start: 3;
+    grid-row-start: 5;
+    background-color: #4638c0;
+    border-radius: 1.5rem;
+    color: white;
+    height: 100%;
+    padding: 24px;
+    position: relative;
+}
+
+.text5 {
+    position: absolute;
+    bottom: 30px;
+    max-width: 300px;
+}
+
+.text5 h1 {
+    font-size: 57px;
+    margin-bottom: 10px;
+}
+
+.text5 p {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.bi {
+    text-decoration: none;
+    color: white;
+}
+
+.hyper {
+    display: flex;
+    gap: 20px;
+}
